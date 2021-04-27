@@ -1,0 +1,22 @@
+#Thu Aug 26 12:24:10 GMT+08:00 2010
+Product=IntegSys
+#Fri Mar 12 12:24:10 GMT+08:00 2010
+#GRider - Main App
+gRider-ClientID=GGC_BM001
+gRider-Password=m\u00D7\u00A3\u0090"\u00CE\u00D1r\u00B8\u0017>\u00A7
+gRider-ServerName=192.168.10.220
+gRider-MainServer=192.168.10.240
+gRider-UserName=_\u00C2
+gRider-Database=GGC_ISysDBF
+gRider-ComputerID=XX
+gRider-Port=3306
+#IntegSys - GGC Integrated Systems 
+IntegSys-ClientID=GGC_BM001
+IntegSys-Password=m\u00D7\u00A3\u0090"\u00CE\u00D1r\u00B8\u0017>\u00A7
+IntegSys-ServerName=192.168.20.220
+IntegSys-MainServer=192.168.10.240
+IntegSys-UserName=_\u00C2
+IntegSys-Database=GGC_ISysDBF
+IntegSys-ComputerID=XX
+IntegSys-Port=3306
+

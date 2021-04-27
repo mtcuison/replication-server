@@ -1,0 +1,205 @@
+Sep 11, 2019 2:23:54 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'GGC_ISysDBF.xxxOutGoingDetail' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.ReExport.getFilter(ReExport.java:414)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:231)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:184)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:23:54 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: IOException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.sTableNme = b.sTableNme AND ((b.cTableTyp = '0') OR (b.cTableTyp = '2' A' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:256)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:184)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:23:54 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Sep 11, 2019 2:24:40 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: upload_file: Exception error detected.
+3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._put(ChannelSftp.java:594)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:540)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at org.rmj.lib.net.SFTP_DU.Upload(SFTP_DU.java:144)
+	at org.rmj.replication.server.ReExport.upload_file(ReExport.java:390)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:200)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:24:40 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Sep 11, 2019 2:27:09 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: upload_file: Exception error detected.
+3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._put(ChannelSftp.java:594)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:540)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at org.rmj.lib.net.SFTP_DU.Upload(SFTP_DU.java:144)
+	at org.rmj.replication.server.ReExport.upload_file(ReExport.java:390)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:200)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:27:09 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Sep 11, 2019 2:28:25 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: upload_file: Exception error detected.
+3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._put(ChannelSftp.java:594)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:540)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at org.rmj.lib.net.SFTP_DU.Upload(SFTP_DU.java:144)
+	at org.rmj.replication.server.ReExport.upload_file(ReExport.java:390)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:200)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:28:25 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Sep 11, 2019 2:32:40 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: upload_file: Exception error detected.
+3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._put(ChannelSftp.java:594)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:540)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at org.rmj.lib.net.SFTP_DU.Upload(SFTP_DU.java:144)
+	at org.rmj.replication.server.ReExport.upload_file(ReExport.java:390)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:200)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:32:40 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Sep 11, 2019 2:35:02 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: upload_file: Exception error detected.
+3: Permission denied
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._put(ChannelSftp.java:594)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:540)
+	at com.jcraft.jsch.ChannelSftp.put(ChannelSftp.java:492)
+	at org.rmj.lib.net.SFTP_DU.Upload(SFTP_DU.java:144)
+	at org.rmj.replication.server.ReExport.upload_file(ReExport.java:390)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:200)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:94)
+
+Sep 11, 2019 2:35:02 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Oct 16, 2019 5:17:13 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'GGC_ISysDBF.xxxOutGoingDetail' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.ReExport.getFilter(ReExport.java:425)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:242)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:195)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:105)
+
+Oct 16, 2019 5:17:13 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: IOException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.sTableNme = b.sTableNme AND ((b.cTableTyp = '0') OR (b.cTableTyp = '2' A' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:267)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:195)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:105)
+
+Oct 16, 2019 5:17:13 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error
+Jun 27, 2020 1:04:57 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'GGC_ISysDBF.xxxOutGoingDetail' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)
+	at org.rmj.replication.server.ReExport.getFilter(ReExport.java:432)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:249)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:202)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:112)
+
+Jun 27, 2020 1:04:57 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: IOException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.sTableNme = b.sTableNme AND ((b.cTableTyp = '0') OR (b.cTableTyp = '2' A' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)
+	at org.rmj.replication.server.ReExport.extract_record(ReExport.java:274)
+	at org.rmj.replication.server.ReExport.create_export(ReExport.java:202)
+	at org.rmj.replication.server.ReExport.main(ReExport.java:112)
+
+Jun 27, 2020 1:04:57 PM org.rmj.lib.net.LogWrapper severe
+SEVERE: create_export error

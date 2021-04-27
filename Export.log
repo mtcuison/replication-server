@@ -1,0 +1,436 @@
+Nov 10, 2014 9:08:18 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:357)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:13:46 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:357)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:16:39 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:357)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:16:53 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:357)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:21:27 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:357)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:22:06 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: Exception error detected.
+java.lang.NullPointerException
+	at org.rmj.Replication.server.Export.connect_server(Export.java:358)
+	at org.rmj.Replication.server.Export.main(Export.java:39)
+
+Nov 10, 2014 9:47:11 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'cRecdStat' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.init_export(Export.java:138)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 9:54:52 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1127)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at org.rmj.Replication.server.Export.init_export(Export.java:141)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 9:57:24 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1127)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at org.rmj.Replication.server.Export.init_export(Export.java:141)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:12:05 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Column 'cTranStat' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1167)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at org.rmj.Replication.server.Export.init_export(Export.java:125)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:12:30 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1127)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at org.rmj.Replication.server.Export.init_export(Export.java:143)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:13:48 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1127)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5733)
+	at org.rmj.Replication.server.Export.init_export(Export.java:143)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:16:08 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:143)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:16:44 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:19:56 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:20:32 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:23:07 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:24:56 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:40:43 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:42:01 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:144)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 11:43:26 AM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1074)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ResultSetImpl.checkClosed(ResultSetImpl.java:804)
+	at com.mysql.jdbc.ResultSetImpl.getRow(ResultSetImpl.java:5389)
+	at org.rmj.Replication.server.Export.init_export(Export.java:145)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 1:16:28 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\001\unzipped\M001MonNov10131628CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:268)
+	at org.rmj.Replication.server.Export.create_export(Export.java:217)
+	at org.rmj.Replication.server.Export.main(Export.java:65)
+
+Nov 10, 2014 1:17:06 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\M001\unzipped\M001MonNov10131706CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:268)
+	at org.rmj.Replication.server.Export.create_export(Export.java:217)
+	at org.rmj.Replication.server.Export.main(Export.java:65)
+
+Nov 10, 2014 1:20:19 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\M001\unzipped\M001MonNov10132019CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:268)
+	at org.rmj.Replication.server.Export.create_export(Export.java:217)
+	at org.rmj.Replication.server.Export.main(Export.java:65)
+
+Nov 10, 2014 1:28:01 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\M001\unzipped\M001MonNov10132801CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:275)
+	at org.rmj.Replication.server.Export.create_export(Export.java:218)
+	at org.rmj.Replication.server.Export.main(Export.java:66)
+
+Nov 10, 2014 1:30:00 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\M001\unzipped\M001MonNov10133000CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:275)
+	at org.rmj.Replication.server.Export.create_export(Export.java:218)
+	at org.rmj.Replication.server.Export.main(Export.java:66)
+
+Nov 10, 2014 1:31:06 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.FileNotFoundException: d:\srv\repl\download\M001\unzipped\M001MonNov10133106CST2014.json (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:110)
+	at java.io.FileWriter.<init>(FileWriter.java:63)
+	at org.rmj.Replication.server.Export.write_file(Export.java:276)
+	at org.rmj.Replication.server.Export.create_export(Export.java:218)
+	at org.rmj.Replication.server.Export.main(Export.java:66)
+
+Nov 10, 2014 1:35:13 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'sFileName' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4118)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.main(Export.java:80)
+
+Nov 10, 2014 1:59:49 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: IOException error detected.
+java.io.IOException: request to write '2048' bytes exceeds size in header of '0' bytes for entry 'M001MonNov10135948CST2014.json'
+	at org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.write(TarArchiveOutputStream.java:377)
+	at org.rmj.Replication.utility.MiscReplUtil.tar(MiscReplUtil.java:79)
+	at org.rmj.Replication.server.Export.tar_json(Export.java:292)
+	at org.rmj.Replication.server.Export.create_export(Export.java:217)
+	at org.rmj.Replication.server.Export.main(Export.java:63)
+
+Nov 10, 2014 3:01:05 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M0011400000003-C0W3' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.init_export(Export.java:168)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 3:02:10 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M0011400000003-C0M1' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.init_export(Export.java:168)
+	at org.rmj.Replication.server.Export.main(Export.java:45)
+
+Nov 10, 2014 3:15:26 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M0011400000003-C028' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.init_export(Export.java:171)
+	at org.rmj.Replication.server.Export.main(Export.java:47)
+
+Nov 10, 2014 3:16:25 PM org.rmj.Replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'M0011400000003-M0xx' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1816)
+	at com.mysql.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1730)
+	at org.rmj.Replication.server.Export.init_export(Export.java:172)
+	at org.rmj.Replication.server.Export.main(Export.java:47)
+
+Jul 22, 2019 2:03:47 PM org.rmj.replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'GGC_ISysDBF.xxxOutGoingMaster' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.Export.getLastBatch(Export.java:855)
+	at org.rmj.replication.server.Export.init_export(Export.java:300)
+	at org.rmj.replication.server.Export.main(Export.java:91)
+
+Jul 22, 2019 2:03:47 PM org.rmj.replication.utility.LogWrapper severe
+SEVERE: SQLException error detected.
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'GGC_ISysDBF.xxxOutGoingMaster' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4120)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4052)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2738)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1617)
+	at org.rmj.replication.server.Export.init_export(Export.java:301)
+	at org.rmj.replication.server.Export.main(Export.java:91)
+
